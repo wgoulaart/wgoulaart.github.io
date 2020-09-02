@@ -4,9 +4,10 @@ My thoughts, portfolio and experiments 🔫 🤪
 
 ## Author
 
-| ![William Goulart](https://avatars1.githubusercontent.com/u/2000986?s=120) |
-| :------------------------------------------------------------------------: |
-|              [William Goulart](https://github.com/wgoulart/)               |
+| ![William Goulart](https://avatars1.githubusercontent.com/u/2000986?s=80) |
+| :-----------------------------------------------------------------------: |
+|             [🐙 William Goulart](https://github.com/wgoulart/)             |
+|              [🐦 @wgoulaart](https://twitter.com/wgoulaart/)               |
 
 ## License
 
