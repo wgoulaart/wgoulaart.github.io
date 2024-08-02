@@ -1,96 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>William Goulart - Front-end Developer | Portfolio</title>
 
-  <title>William Goulart - Product Designer.</title>
+    <meta
+      name="description"
+      content="William Goulart is a passionate Front-end Developer who creates products to solve real-world problems using technology."
+    />
+    <meta name="author" content="William Goulart" />
+    <meta
+      name="keywords"
+      content="William Goulart, Front-end Developer, Web Development, UI/UX, JavaScript, HTML, CSS"
+    />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/fav/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/fav/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/fav/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/fav/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/fav/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fav/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/fav/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/fav/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fav/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fav/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/fav/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link id="favicon" rel="alternate icon" href="assets/images/favicon.ico" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/fav/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/images/fav/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <meta name="Description"
-    content="Sou apaixonado pelo uso da tecnologia para criar produtos que resolverão problemas reais.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/styles/main.css" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://williamgoulart.com" />
+    <meta
+      property="og:title"
+      content="William Goulart - Front-end Developer | Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore William Goulart's portfolio showcasing innovative front-end development projects, experiments, and insights."
+    />
+    <meta
+      property="og:image"
+      content="https://williamgoulart.com/assets/images/og-image.png"
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://williamgoulart.com" />
-  <meta property="og:title" content="Hi, I'm William Goulart, Interaction Designer." />
-  <meta property="og:description"
-    content="My personal location on the internet where I share my work, experiments and thoughts." />
-  <meta property="og:image" content="http://williamgoulart.com/images/preview.png" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://williamgoulart.com" />
+    <meta
+      name="twitter:title"
+      content="William Goulart - Front-end Developer | Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore William Goulart's portfolio showcasing innovative front-end development projects, experiments, and insights."
+    />
+    <meta
+      name="twitter:image"
+      content="https://williamgoulart.com/assets/images/twitter-image.png"
+    />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="http://williamgoulart.com" />
-  <meta property="twitter:title" content="Hi, I'm William Goulart, Interaction Designer." />
-  <meta property="twitter:description"
-    content="My personal location on the internet where I share my work, experiments and thoughts." />
-  <meta property="twitter:image" content="http://williamgoulart.com/images/preview.png" />
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "William Goulart",
+        "jobTitle": "Front-end Developer",
+        "url": "https://williamgoulart.com",
+        "sameAs": [
+          "https://dribbble.com/wgoulaart",
+          "https://www.linkedin.com/in/wgoulaart/",
+          "https://github.com/wgoulaart"
+        ]
+      }
+    </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176264117-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FD5826GP87"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      gtag("config", "G-FD5826GP87");
+    </script>
+  </head>
 
-    gtag('config', 'UA-176264117-1');
-  </script>
-</head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="https://williamgoulart.com" class="username">@wgoulaart</a>
+        </nav>
+      </header>
 
-<body>
-  <main class="container">
-    <header>
-      <h4 class="username"><a href="http://williamgoulart.com">@wgoulaart</a></h4>
-      <h1 class="main-title">
-        <small>Hi,</small>
-        <br />
-        I'm <strong>William Goulart,</strong>
-        <br />
-        Interaction Designer.
-      </h1>
-      <h4 class="job">previously front-end developer.</h2>
-        <div class="social">
+      <main>
+        <section class="main-title">
+          <h1>
+            <span>Hi,</span>
+            I'm <strong>William Goulart</strong>
+            <br />
+            <span>Front-end Developer.</span>
+          </h1>
+          <p class="job">
+            Passionate about using technology to create products that solve
+            real-world problems.
+          </p>
+        </section>
+
+        <section class="social">
+          <h2>Connect with me</h2>
           <ul>
-            <li class="item dribbble"><a href="https://dribbble.com/wgoulaart"
-                onclick="ga('send', 'event', 'Category', 'click', 'Label', 'Value');" target="blank">Dribbble</a> </li>
-            <li class="item linkedin"><a href="https://www.linkedin.com/in/wgoulaart/"
-                onclick="ga('send', 'event', 'Category', 'click', 'Label', 'Value');" target="blank">LinkedIn</a> </li>
-            <li class="item github"><a href="https://github.com/wgoulaart"
-                onclick="ga('send', 'event', 'Category', 'click', 'Label', 'Value');" target="blank">Github</a> </li>
+            <li class="item dribbble">
+              <a
+                href="https://dribbble.com/wgoulaart"
+                target="_blank"
+                rel="noopener noreferrer"
+                onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Dribbble'});"
+              >
+                Dribbble
+              </a>
+            </li>
+            <li class="item linkedin">
+              <a
+                href="https://www.linkedin.com/in/wgoulaart/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'LinkedIn'});"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li class="item github">
+              <a
+                href="https://github.com/wgoulaart"
+                target="_blank"
+                rel="noopener noreferrer"
+                onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Github'});"
+              >
+                Github
+              </a>
+            </li>
           </ul>
-          <p class="social-title">Let's talk: <a onclick="ga('send', 'event', 'Category', 'click', 'Label', 'Value');"
-              href="mailto:williamgoulart1@hotmail.com"><strong>
-                williamgoulart1@hotmail.com</strong></a></p>
-        </div>
-    </header>
+        </section>
 
-  </main>
-</body>
+        <section class="contact">
+          <h2>Let's talk:</h2>
+          <a
+            href="mailto:williamgoulart1@hotmail.com"
+            onclick="gtag('event', 'click', {'event_category': 'Contact', 'event_label': 'Email'});"
+          >
+            <strong>williamgoulart1@hotmail.com</strong>
+          </a>
+        </section>
+      </main>
 
+      <footer>
+        <p>&copy; 2024 William Goulart. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 </html>
